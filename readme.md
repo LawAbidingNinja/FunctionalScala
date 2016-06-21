@@ -1,0 +1,1 @@
+My attempts at exercises from Functional Programming in Scala by Raul Chiusano and Runar Bjarnason
