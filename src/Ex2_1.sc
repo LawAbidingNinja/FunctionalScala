@@ -8,4 +8,4 @@ def fib(n:Int) = {
   calcFib (0,1,n)
 }
 
-fib(5)
+//fib(10)
