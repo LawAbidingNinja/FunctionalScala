@@ -1,6 +1,7 @@
 def uncurry[A,B,C](f: A => (B => C)): (A,B) => C = {
-  //(a: A, b: B) =>
-  f(a: A, b: B) => (b: B) => (a: A)
+  f(a, b)
+//  //(a: A, b: B) =>
+//  f(a: A, b: B) => (b: B) => (a: A)
 }
 
 //def curry[A,B,C](f: (A,B) => C): A => (B => C) = {
